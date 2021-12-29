@@ -1,6 +1,5 @@
-Thanks for downloading this template!
+Project Name: aradev11-website
+Date: 29 Dec 2021
 
-Template Name: MyResume
-Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+github: 
+linkedin: 
