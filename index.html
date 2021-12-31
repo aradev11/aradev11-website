@@ -37,8 +37,6 @@
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
-
-    
   </head>
 
   <body>
@@ -132,7 +130,16 @@
 
           <div class="row">
             <div class="col-lg-4">
-              <img src="assets/img/profile-img.jpg" class="img-fluid" alt="" />
+              <img
+                src="assets/img/profile-img.jpg"
+                class="
+                  img-fluid
+                  rounded-circle
+                  img-repansive
+                  border border-5 border-secondary
+                "
+                alt=""
+              />
             </div>
             <div class="col-lg-8 pt-4 pt-lg-0 content">
               <h3>Full Stack Web Developer.</h3>
@@ -862,7 +869,6 @@
                       type="text"
                       name="firstName"
                       class="form-control"
-                      
                       placeholder="Your Name"
                       required
                     />
@@ -872,7 +878,6 @@
                       type="email"
                       class="form-control"
                       name="email"
-                      
                       placeholder="Your Email"
                       required
                     />
@@ -883,7 +888,6 @@
                     type="text"
                     class="form-control"
                     name="subject"
-                    
                     placeholder="Subject"
                     required
                   />
@@ -897,9 +901,11 @@
                     required
                   ></textarea>
                 </div>
-                
+
                 <div class="">
-                  <button type="submit" class="btn btn-primary mt-2"><i class="bi bi-send m-2"></i>Send Message</button>
+                  <button type="submit" class="btn btn-primary mt-2">
+                    <i class="bi bi-send m-2"></i>Send Message
+                  </button>
                 </div>
               </form>
             </div>
