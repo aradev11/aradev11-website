@@ -20,6 +20,40 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+/*------------------------------------------------------------- 
+# BADGE STYLE
+--------------------------------------------------------------*/
+.badge-purple {
+  background: linear-gradient(45deg, purple, #1E90FF);
+}
+.badge-red {
+  background: linear-gradient(45deg, red, #1E90FF);
+}
+.badge-green {
+  background: linear-gradient(45deg, green, #1E90FF);
+}
+.badge-orange {
+  background: linear-gradient(45deg, orange, #1E90FF);
+}
+.badge-indigo {
+  background: linear-gradient(45deg, #4B0082, #1E90FF);
+}
+.badge-light-sea-reen {
+  background: linear-gradient(45deg, #20B2AA, #1E90FF);
+}
+
+.badge-green, 
+.badge-orange, 
+.badge-purple, 
+.badge-red,
+.badge-indigo,
+.badge-light-sea-reen {
+  margin: 0px 5px;
+}
+
+
+
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -869,6 +903,14 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.btn-circle.btn-sm {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  font-size: 8px;
+  text-align: center;
+}
 .contact .info {
   width: 100%;
   background: #fff;
