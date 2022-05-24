@@ -470,6 +470,13 @@ section {
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
+#skills,
+#services {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
 .skills .progress {
   height: 60px;
   display: block;
