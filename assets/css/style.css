@@ -102,6 +102,9 @@ h1 {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
+  #skills {
+    height: fit-content !important;
+  }
 }
 /*--------------------------------------------------------------
 # Header
